@@ -1,0 +1,11 @@
+{
+	"name":"catherine-tan",
+	"version":"0.0.1",
+	"dependencies": {
+		"express":"2.5.11", 
+		"jade":">=0.0.1",
+		"request" : ">=0.0.1",
+		"html5" : ">=0.0.1",
+		"jitsu" : ">=0.0.1"
+	}
+}
