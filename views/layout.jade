@@ -1,0 +1,58 @@
+doctype 5
+html
+	<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+	<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+	<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+	<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+	<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+	head
+		
+		meta(content='True', name='HandheldFriendly')
+		meta(content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;', name='viewport')
+		meta(name="apple-mobile-web-app-capable", content="yes")
+		link(rel="apple-touch-icon-precomposed", href="")		
+		meta(name="viewport", content="width=device-width")
+		
+		link(href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700', rel='stylesheet', type='text/css')
+		
+		script(src="http://code.jquery.com/jquery-latest.js")
+		<!-- Included CSS Files -->
+		link(rel="stylesheet", href="/stylesheets/foundation3/foundation.css")
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		
+		<!--[if lt IE 9]>
+		link(rel="stylesheet", href="/stylesheets/foundation3/ie.css")
+		
+		<!-- IE Fix for HTML5 Tags -->
+		<!--[if lt IE 9]>
+		script(src="http://html5shiv.googlecode.com/svn/trunk/html5.js")
+		<![endif]-->
+		
+		<!-- Included JS Files -->
+		script(src="/javascripts/foundation3/app.js")
+		script(src="/javascripts/foundation3/jquery.reveal.js")
+		script(src="/javascripts/foundation3/jquery.orbit-1.4.0.js")
+		script(src="/javascripts/foundation3/jquery.customforms.js")
+		script(src="/javascripts/foundation3/jquery.placeholder.min.js")
+		script(src="/javascripts/foundation3/jquery.tooltips.js")
+		
+		
+
+	body
+		div.row
+			div.five.columns
+				a(href="/")
+					h1 Catherine Tan
+			div.seven.columns
+				div#nav_bar_padding.hide-for-small
+				ul#nav_bar
+					li.nav
+						a About
+					li.nav	
+						a(href="/projects") Projects
+					li.nav
+						a 360s
+					li.nav
+						a blog
+				
+		block content
