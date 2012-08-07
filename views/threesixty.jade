@@ -2,36 +2,23 @@ extends layout
 
 block content
 	script
-		function formartDate(old_date) {
-			var now = new Date();
-			var post_time = new Date(Date.parse(old_date));
-			var prettytime = formatAgo(post_time, null, now);s
-			return prettytime;
-			
-		}
-		function updatePostTime(){
-			var time_spans = $('.created_time');
-			$.each(time_spans, function(i,item){
-			$(item).html(formartDate($(item).attr('data-time')));
-			})
-			
-			
-			setTimeout(updatePostTime,30000);
-			}
-		jQuery(document).ready(function ($) {
-			setTimeout(updatePostTime,30000);
-		}
+		$(function(){
+			$('#slides').slides({
+				preload: false,
+				play: 5000,
+				pause: 2500,
+				hoverPause: true
+			});
+		});
 
-	div.row
+
+	div.row#threesixty
 		div.twelve.columns
 			p I have been taking panoramas with my iPhone for quite some time. :)
-			p Here is the 
-				a(href="http://prettygeekycat.blogspot.ca/2012/02/how-to-take-great-panoramas-using-your.html", target="_blank") blog
+				|Here is the 
+				a(href="http://prettygeekycat.blogspot.ca/2012/02/how-to-take-great-panoramas-using-your.html", target="_blank") blog 
 				|  I wrote on how I did them.
-			p I am using 
-				a(href="http://www.flickr.com/services/api", target="_blank") Flickr's API 
-				| to get this images from my album on Facebook. 
-		div.twelve.columns.centered
+		div.twelve.columns.centered		
 			each i in photos
 				img.panoramas(src="#{i["url"]}")
 			

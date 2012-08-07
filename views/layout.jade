@@ -19,6 +19,7 @@ html
 		<!-- Included CSS Files -->
 		link(rel="stylesheet", href="/stylesheets/foundation3/foundation.css")
 		link(rel='stylesheet', href='/stylesheets/style.css')
+		link(rel="stylesheet", href="/stylesheets/foundation-icons-general.css")
 		
 		<!--[if lt IE 9]>
 		link(rel="stylesheet", href="/stylesheets/foundation3/ie.css")
@@ -35,10 +36,10 @@ html
 		script(src="/javascripts/foundation3/jquery.customforms.js")
 		script(src="/javascripts/foundation3/jquery.placeholder.min.js")
 		script(src="/javascripts/foundation3/jquery.tooltips.js")
-		
+		script(src="/javascripts/slides.min.jquery.js")
 		
 
-	body
+	body(onload="timer()")
 		div.row
 			div.five.columns
 				a(href="/")
@@ -47,12 +48,20 @@ html
 				div#nav_bar_padding.hide-for-small
 				ul#nav_bar
 					li.nav
-						a About
+						a 
+							span.glyph.general -
+							| About
 					li.nav	
-						a(href="/projects") Projects
+						a(href="/projects") 
+							span.glyph.general k
+							| Projects
 					li.nav
-						a(href="/360") 360s
+						a(href="/360") 
+							span.glyph.general  .
+							| 360s
 					li.nav
-						a(href="http://prettygeekycat.blogspot.ca/") blog
+						a(href="http://prettygeekycat.blogspot.ca/") 
+							span.glyph.general [
+							| blog
 				
 		block content

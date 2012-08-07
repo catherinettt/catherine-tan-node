@@ -22,6 +22,10 @@ body{
 
 a{
 	color: #555;
+	    -webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
 	
 }
 
@@ -53,10 +57,15 @@ ul#nav_bar li.nav{
 }
 
 ul#nav_bar li.nav a{
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: bold;
 	}
-
+ul#nav_bar span.glyph{
+	display: inline-block;
+	margin-right:5px;
+	margin-top: 2px;
+	vertical-align: top;
+}
 /* -----------------------------------------
    Page Name 2
 ----------------------------------------- */
@@ -75,12 +84,10 @@ ul#nav_bar li.nav a{
 	position: relative; 
    top: -3px; 
    left: -3px; 
-   box-shadow: 1px 1px #555, 
-                2px 2px #555, 
-                3px 3px #555, 
-                4px 4px #555, 
-                5px 5px #555, 
-                6px 6px #555;
+   box-shadow: 1px 1px #888, 
+                2px 2px #888, 
+                3px 3px #888, 
+                4px 4px #888;
 }
 p.project_description{
 	min-height: 70px;
@@ -102,10 +109,17 @@ span.project_role{
 	
 	
 }
+span.skills{
+	display: block;
+	height: 24px;
+	font-size: 12px;
+	
+}
 .project_linkbox{
 	height: 20px;
 	display: block;
 	clear: both;
+	margin-top: 8px;
 }
 a.project_github{
 	float: right;
@@ -118,13 +132,39 @@ a.project_github img{
    360s
 ----------------------------------------- */	
 img.panoramas{
-	
+	margin-bottom: 30px;
+	display: block;
+	filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(0.6);
+    -webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
 	
 }
 
+img.panoramas:hover{
+	filter: none;
+    -webkit-filter: grayscale(0);
+
+}
+#threesixty p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 #latest_project{
 	background-color: rgba(255,255,255,0.6);
 	padding: 10px;
 	text-align: right;
 	
+}
+/* -----------------------------------------
+   about
+----------------------------------------- */	
+
+ul#mylinks{
+	
+	text-align: right;
+	list-style: none;
 }

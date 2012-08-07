@@ -6,7 +6,6 @@
 		"jade":">=0.0.1",
 		"request" : ">=0.0.1",
 		"html5" : ">=0.0.1",
-		"facebook-client" : ">=0.0.1",
 		"async" : ">=0.0.1",
 		"pipette" : ">=0.0.1"
 	}

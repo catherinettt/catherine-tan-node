@@ -93,9 +93,9 @@ exports.threesixty = function(req, res){
 	if (err)
 		return console.log("Error: "+err);
 
-	console.log("Got photos: ");
+	//console.log("Got photos: ");
 	photos.forEach(function(photo) {
-		console.log(photo);
+		//console.log(photo);
 	})
 	res.render("threesixty", {
 		title:"Catherine Tan",
@@ -110,7 +110,22 @@ exports.threesixty = function(req, res){
 				
 			
 					
-					
+exports.about = function(req, res){
+	var list0 = ["computer science undergrad","web developer", "photographer", "interface designer", "graphic designer", "Simon Fraser University student", "Vancouver resident" ];
+	var list1 = ["typography", "the WWW", "Human Computer Interaction","JavaScript", "jQuery", "graphic", "photography", "CSS", "psychology", "pop culture", "urban culture", "iphoneography", "snowboading", "Vancouver Canucks", "User Interface Design", "Emerging Technologies", "mobility", "smartphones"];
+	var list2 = ["JavaScript","HTML", "CSS", "Node.js", "jQuery", "HTML5","CSS3", "Google Fonts","Zurb Foundation3"];
+	res.render("about", {
+					title:"Catherine Tan",
+					iam : list0,
+					ilike : list1,
+					uses :  list2
+				}, function (err, rendered) {
+					res.writeHead(200, {'Content-Type':'text/html'});
+					res.end(rendered);
+					})
+			}
+
+		
 		
 
 		
