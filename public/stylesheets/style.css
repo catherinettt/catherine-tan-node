@@ -19,7 +19,9 @@ body{
 	font-family: 'Quicksand', sans-serif;
 	color: #555;
 }
-
+#header{
+	margin-top: 10px;
+}
 a{
 	color: #555;
 	    -webkit-transition: all 1s ease-in-out;
@@ -51,9 +53,9 @@ ul#nav_bar{
 	text-align: right;
 }
 ul#nav_bar li.nav{
-	
+	text-align: right;
 	display: inline-block;
-	margin: 0 20px;
+	margin: 0 15px;
 }
 
 ul#nav_bar li.nav a{
