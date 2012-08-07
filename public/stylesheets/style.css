@@ -162,9 +162,29 @@ img.panoramas:hover{
 /* -----------------------------------------
    about
 ----------------------------------------- */	
-
+#aboutmepage{
+	margin-top: 20px;
+}
 ul#mylinks{
 	
 	text-align: right;
 	list-style: none;
+	background-color: rgba(255,255,255,0.6);
+	padding: 10px;
+	font-size: 18px;
 }
+
+img.aboutimg{
+	max-width: 137px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#aboutmebox p{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+#aboutmebox p span{
+	font-weight: bold;
+	}

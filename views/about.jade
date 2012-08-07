@@ -1,15 +1,10 @@
 extends layout
 
 block content
-	script
-		function changeText(id){
-			var list0 = [#{iam}];
-			alert(list0[1])
-		}
-	div.row
+	div.row#aboutmepage
 		div.two.columns
-			img(src="/images/catherine.jpg")
-		div.seven.columns
+			img(src="/images/catherine.jpg").aboutimg
+		div.seven.columns#aboutmebox
 			p Hi there again! Looks like you want to know more about me! So here we go! :)
 			p I am a 
 				span#iam(onmouseover="changeText(this.id)") computer science undergrad
@@ -18,11 +13,11 @@ block content
 				span#ilike(onmouseover="changeText(this.id)") HTML5
 				| .
 			p I am using 
-				span#used(onmouseover="changeText(this.id)) Node.js 
+				span#used(onmouseover="changeText(this.id)") Node.js 
 				|  to make this page. 
-			p Feel free to browse the links on the right, and you are always welcome to 
+			p Feel free to browse the links on this page, and you are always welcome to 
 				a(href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=tan.l.catherine@gmail.com", target="_blank") email 
-				| me for my resume, or other inquiries.
+				| me for my resume or other inquiries.
 		div.two.columns
 			ul#mylinks
 				li
