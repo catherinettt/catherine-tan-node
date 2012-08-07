@@ -27,6 +27,7 @@ app.configure('production', function(){
 // Routes
 
 app.get('/', routes.index);
+app.get('/360', routes.threesixty);
 app.get('/projects', routes.projects);
 
 exports.server = app;

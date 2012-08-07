@@ -22,7 +22,11 @@ body{
 
 a{
 	color: #555;
-	font-size: 16px;
+	
+}
+
+a:link{
+	font-weight: bold;
 	
 }
 a:hover{
@@ -48,6 +52,10 @@ ul#nav_bar li.nav{
 	margin: 0 20px;
 }
 
+ul#nav_bar li.nav a{
+	font-size: 16px;
+	font-weight: bold;
+	}
 
 /* -----------------------------------------
    Page Name 2
@@ -58,8 +66,21 @@ ul#nav_bar li.nav{
 
 .project_innerbox{
 	background: white;
-	padding: 10px;
+	padding: 10px 15px;
 	margin-bottom: 15px;
+	border-radius: 10px;
+}
+
+.project_innerbox:hover{
+	position: relative; 
+   top: -3px; 
+   left: -3px; 
+   box-shadow: 1px 1px #555, 
+                2px 2px #555, 
+                3px 3px #555, 
+                4px 4px #555, 
+                5px 5px #555, 
+                6px 6px #555;
 }
 p.project_description{
 	min-height: 70px;
@@ -93,3 +114,17 @@ a.project_github{
 a.project_github img{
 	height: 20px;
 	}
+/* -----------------------------------------
+   360s
+----------------------------------------- */	
+img.panoramas{
+	
+	
+}
+
+#latest_project{
+	background-color: rgba(255,255,255,0.6);
+	padding: 10px;
+	text-align: right;
+	
+}
