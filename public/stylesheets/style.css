@@ -44,7 +44,7 @@ a:hover{
    Nav Bar
 ----------------------------------------- */
 div#nav_bar_padding{
-	height: 40px;
+	height: 30px;
 	
 }
 ul#nav_bar{
@@ -55,11 +55,11 @@ ul#nav_bar{
 ul#nav_bar li.nav{
 	text-align: right;
 	display: inline-block;
-	margin: 0 15px;
+	margin: 0 12px;
 }
 
 ul#nav_bar li.nav a{
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bold;
 	}
 ul#nav_bar span.glyph{
@@ -156,8 +156,8 @@ img.panoramas:hover{
 	margin-bottom: 20px;
 }
 #latest_project{
-	background-color: rgba(255,255,255,0.6);
-	padding: 10px;
+	background-color: rgba(255,255,255,0.8);
+	padding: 15px;
 	text-align: right;
 	
 }
@@ -173,8 +173,11 @@ ul#mylinks{
 	list-style: none;
 	background-color: rgba(255,255,255,0.6);
 	padding: 10px;
-	font-size: 18px;
+	border-radius: 10px;
 }
+ul#mylinks li{
+	font-size: 16px;
+	}
 
 img.aboutimg{
 	max-width: 137px;
@@ -183,8 +186,9 @@ img.aboutimg{
 }
 
 #aboutmebox p{
-	font-size: 18px;
-	margin-bottom: 10px;
+	font-size: 20px;
+	margin-bottom: 3px;
+	
 }
 
 #aboutmebox p span{
