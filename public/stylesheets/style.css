@@ -208,7 +208,7 @@ img.aboutimg{
 ----------------------------------------- */
 div#engagebox{
 	background-color: rgba(255,255,255,0.6);
-	padding: 20px;
+	padding: 10px;
 	
 }
 div#engagebox .columns{
@@ -220,7 +220,9 @@ div#engagebox img#engage_logo{
 	border: 0;
 	}
 div#engagebox a.button{
-	margin: 0 10px;
+	margin: 0 5px;
+	margin-bottom: 10px;
+	
 }
 div#engagebox p{
 	padding: 10px;
@@ -228,7 +230,26 @@ div#engagebox p{
 }
 
 #engagebox #mobile img{
-	padding: 10px 20px;
+	padding: 5px;
 	width: 33%;
 	
+}
+
+#member ul{
+	display: inline-block;
+	text-align: left;
+	font-weight: bold;
+	height: 130px;
+	vertical-align: top;
+	list-style: none;
+	font-size: 14px;
+	width: 100px;
+}
+
+#member ul li{
+	font-weight: normal;
+	font-size: 12px;
+	}
+#member ul li a:link{
+	font-weight: normal;
 }
