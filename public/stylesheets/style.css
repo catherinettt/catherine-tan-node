@@ -228,28 +228,31 @@ div#engagebox p{
 	padding: 10px;
 	
 }
-
+#engagebox #mobile{
+	margin-bottom: 20px;
+}
 #engagebox #mobile img{
 	padding: 5px;
 	width: 33%;
 	
 }
-
+#member{
+	
+	margin-bottom: 20px;
+}
 #member ul{
-	display: inline-block;
+	
 	text-align: left;
 	font-weight: bold;
-	height: 130px;
 	vertical-align: top;
 	list-style: none;
-	font-size: 14px;
-	padding: 0 2%;
-	width: 30%;
+	font-size: 18px;
+
 }
 
 #member ul li{
 	font-weight: normal;
-	font-size: 12px;
+	font-size: 14px;
 	}
 #member ul li a:link{
 	font-weight: normal;
