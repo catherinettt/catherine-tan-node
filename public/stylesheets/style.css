@@ -38,7 +38,16 @@ a:link{
 a:hover{
 	color: #888;
 }
+a.button{
+font-family: 'Quicksand', sans-serif;
+	background: #888;
+	border-color: #555;
+	border-radius: 3px;
+}
 
+a.button:hover{
+	background-color: #555;
+}
 
 /* -----------------------------------------
    Nav Bar
@@ -194,3 +203,32 @@ img.aboutimg{
 #aboutmebox p span{
 	font-weight: bold;
 	}
+/* -----------------------------------------
+   engage
+----------------------------------------- */
+div#engagebox{
+	background-color: rgba(255,255,255,0.6);
+	padding: 20px;
+	
+}
+div#engagebox .columns{
+	text-align: center;
+	}
+	
+div#engagebox img#engage_logo{
+	width: 250px;
+	border: 0;
+	}
+div#engagebox a.button{
+	margin: 0 10px;
+}
+div#engagebox p{
+	padding: 10px;
+	
+}
+
+#engagebox #mobile img{
+	padding: 10px 20px;
+	width: 33%;
+	
+}

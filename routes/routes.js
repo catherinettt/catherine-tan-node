@@ -126,7 +126,15 @@ exports.about = function(req, res){
 			}
 
 		
-		
+exports.engage = function (req, res) {
+	res.render("engage", {
+					title:"Catherine Tan",
+				}, function (err, rendered) {
+					res.writeHead(200, {'Content-Type':'text/html'});
+					res.end(rendered);
+					})
+					}
+
 
 		
 		

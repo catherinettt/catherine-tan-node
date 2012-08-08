@@ -30,6 +30,7 @@ app.get('/', routes.index);
 app.get('/360', routes.threesixty);
 app.get('/projects', routes.projects);
 app.get('/about', routes.about);
+app.get('/projects/engage', routes.engage);
 exports.server = app;
 // listening
 app.listen(process.env.DEPLOY_PORT || 8080, function(){
