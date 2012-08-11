@@ -21,7 +21,9 @@ body{
 	margin-bottom: 20px;
 }
 #header{
-	margin-top: 10px;
+	padding-top: 20px;
+	border-top: 12px solid #555;
+	margin-bottom: 20px;
 }
 
 #header h1{
@@ -29,17 +31,23 @@ body{
 	text-shadow: #D9D9D9 3px 3px 0px;
 	white-space: nowrap;
 	font-weight: normal;
+	margin-bottom: 0;
+	font-size: 40px;
 }
+#header span#subtitle{
+	font-weight: 300;
+	margin-left: 3px;
+
+}
+
 a{
 	color: #555;
 	padding-bottom: 5px;
 	
 }
 
-a:link{
-	font-weight: bold;
-	
-}
+
+
 a:hover{
 	color: #555;
 	
@@ -55,6 +63,10 @@ a.button{
 
 a.button:hover{
 	background-color: #555;
+}
+
+#headline h1{
+	font-family: 'Squada One', sans-serif;
 }
 
 /* -----------------------------------------
@@ -200,7 +212,7 @@ ul#mylinks{
 	list-style: none;
 	background-color: rgba(255,255,255,0.6);
 	padding: 10px;
-	border-radius: 10px;
+	
 }
 ul#mylinks li{
 	font-size: 16px;
@@ -214,12 +226,15 @@ img.aboutimg{
 
 #aboutmebox p{
 	font-size: 20px;
-	margin-bottom: 3px;
+	line-height: 1;
+	
 	
 }
 
 #aboutmebox p span{
-	font-weight: bold;
+	display: inline-block;
+	background-color: rgba(255,255,255,0.9);
+	padding: 3px;
 	}
 /* -----------------------------------------
    engage

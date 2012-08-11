@@ -11,8 +11,8 @@ function rancolor(textdiv){
 	
 function changeText(id){
 	var list0 = ["computer science undergrad","web developer", "photographer", "interface designer", "graphic designer", "Simon Fraser University student", "Vancouver resident" ];
-	var list1 = ["typography", "HTML5", "the WWW", "Human Computer Interaction","JavaScript", "graphics", "doodling", "photography", "CSS", "CSS3","iphoneography", "snowboading", "biking", "the Vancouver Canucks", "User Interface Design", "Emerging Technologies", "smartphones"];
-	var list2 = ["JavaScript","HTML", "CSS3", "Node.js", "jQuery", "HTML5", "CSS", "Google Fonts", "Foundation3", "Jade", "AMAZON EC2", "github"];
+	var list1 = ["typography", "HTML5", "Human Computer Interaction","JavaScript", "graphics", "doodling", "photography", "CSS", "CSS3","iphoneography", "snowboading", "biking", "the Vancouver Canucks", "User Interface Design", "Emerging Technologies", "smartphones"];
+	var list2 = ["JavaScript","HTML", "CSS3", "Node.js", "jQuery", "HTML5", "CSS", "Google Fonts", "Foundation3", "Jade", "Amazon EC2", "GitHub"];
 	var temp;
 	if (id=='iam'){
 		temp = Math.floor(Math.random() * list0.length);
@@ -48,7 +48,7 @@ function changeText(id){
 			temp = Math.floor(Math.random() * list.length);
 			changeText(list[temp]);
 			changeColor('#catherine');
-			t=setTimeout("autoChangeText()",3000);
+			t=setTimeout("autoChangeText()",2000);
 			
 	}
 	
@@ -62,7 +62,7 @@ function changeText(id){
 	}
 	
 	function timer(){
-		var k=setTimeout("doTimer()",3000);
+		var k=setTimeout("doTimer()",2000);
 		}
 	
 	
