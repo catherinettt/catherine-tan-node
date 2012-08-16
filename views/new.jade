@@ -18,7 +18,7 @@ html
 		script(src="http://code.jquery.com/jquery-latest.js")
 		<!-- Included CSS Files -->
 		link(rel="stylesheet", href="/stylesheets/foundation3/foundation.css")
-		link(rel='stylesheet', href='/stylesheets/style.css')
+		link(rel='stylesheet', href='/stylesheets/new.css')
 		link(rel="stylesheet", href="/stylesheets/foundation-icons-general.css")
 		
 		<!--[if lt IE 9]>
@@ -38,34 +38,19 @@ html
 		script(src="/javascripts/foundation3/jquery.tooltips.js")
 		script(src="/javascripts/slides.min.jquery.js")
 		script(src="/javascripts/app.js")
-		script
-			function changeColor(id){
-				var red = Math.floor(Math.random() * 255);
-				var green = Math.floor(Math.random() * 255);
-				var blue = Math.floor(Math.random() * 255);
-				var newColor = 'rgb('+red+','+green+','+blue+')';
-				$(id).animate({color: newColor}, 700);}
-	body(onload="timer()")
-		div.row#header
-			div.five.columns
-				a(href="/")
-					h1#title CATHERINE TAN
-					span#subtitle  23 / student / developer / shutterbug
-			div.five.columns
-				div#nav_bar_padding.hide-for-small
-				ul#nav_bar
-					li.nav
-						a(href="/about")  
-							span.glyph.general -
-							| about
-					li.nav	
-						a(href="/projects") 
-							span.glyph.general q
-							| projects
-					li.nav
-						a(href="/360") 
-							span.glyph.general  .
-							| photos
+	body
+		div.row
+			div.twelve.columns
+				h1 CATHERINE TAN
+				h5 23 / Vancouver / B.Sc / Web Developer
 				
-				
-		block content
+		div.row
+			for item in projects
+				div.four.columns.project_box
+					if item.img_url
+						div#img_wrap(style="background-image: url('#{item.img_url}');")
+					div#project_content
+						span #{item.role}	
+						h4 #{item.name}			
+						p #{item.description}
+					

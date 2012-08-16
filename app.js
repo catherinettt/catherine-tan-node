@@ -28,6 +28,7 @@ app.configure('production', function(){
 
 app.get('/', routes.index);
 app.get('/360', routes.threesixty);
+app.get('/new', routes.neww);
 app.get('/projects', routes.projects);
 app.get('/about', routes.about);
 app.get('/projects/engage', routes.engage);

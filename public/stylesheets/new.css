@@ -1,0 +1,46 @@
+body{
+	
+	background: url(/images/dust.png);
+	background-repeat: repeat;
+	font-family: 'Quicksand', sans-serif;
+	color: #555;
+	margin-bottom: 20px;
+}
+
+.project_linkbox{
+	height: 20px;
+	display: block;
+	clear: both;
+	margin-top: 8px;
+}
+a.project_github{
+	margin-left: 10px;
+	height: 20px;
+	}
+a.project_github img{
+	height: 14px;
+	vertical-align: middle;
+	}
+	
+.project_box{
+	position: relative;
+	height: 250px;
+	padding: 0;
+
+	background-color: rgba(255,255,255, 0.8);
+}
+#img_wrap{
+	position: absolute;
+	opacity: 0.1;
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+}
+
+
+
+#project_content{
+	position: absolute;
+	padding: 20px;
+}

@@ -3,6 +3,7 @@ var Sink = require('pipette').Sink;
 var fs = require('fs');
 var async = require('async');
 var querystring = require('querystring');
+var projects = require('../models/projects.json')
 
 
 function request(params, callback) {
@@ -138,5 +139,23 @@ exports.engage = function (req, res) {
 
 		
 		
+exports.neww = function (req, res) {
+	console.log(projects);
+	//projects.projects.forEach(function(p) {
+	//	console.log(p);
+	//})
+	console.log(projects.projects);
+	res.render("new", {
+					title:"Catherine Tan",
+					projects : projects
+					
+				}, function (err, rendered) {
+					res.writeHead(200, {'Content-Type':'text/html'});
+					res.end(rendered);
+					})
+					}
+
+
+
 	
 	

@@ -32,7 +32,7 @@ body{
 	white-space: nowrap;
 	font-weight: normal;
 	margin-bottom: 0;
-	font-size: 40px;
+	font-size: 36px;
 }
 #header span#subtitle{
 	font-weight: 300;
@@ -43,6 +43,12 @@ body{
 a{
 	color: #555;
 	padding-bottom: 5px;
+	
+}
+
+
+a:link{
+	font-weight: bold;
 	
 }
 

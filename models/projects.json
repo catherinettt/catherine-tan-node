@@ -1,0 +1,76 @@
+{
+	"p1" : {
+		"type" : "dev",
+		"name": "SFU ENGAGE",
+		"role" : "Front-end Developer",
+		"description" : "An responsive online acadamic resouces organizer designed for SFU students",
+		"skills" : "Node.js, Jade, CSS3, HTML5, Foundation3",
+		"feature_link" : "/projects/engage",
+		"link" : "http://142.58.21.189:3000/",
+		"git_link" : "https://github.com/sfu-innovation/project-xavier",
+		"img_url" : "/images/engage/engage_main.png"
+		
+	},
+	
+	"p2" : {
+		"type": "dev",
+		"name": "WIFI Locator",
+		"role": "Back-end Developer",
+		"description": "A realtime positionings mobile application using WIFI hotspots on campus",
+		"skills" : "Google App Engine, webapp, python, gql, HTML",
+		"feature_link" : "",
+		"link" : "http://wifi-location.appspot.com/",
+		"git_link" : "https://github.com/sfu-innovation/WifiLocator",
+		"img_url" : ""
+		
+		
+	},
+	
+	"p3" : {
+		"type": "desgin",
+		"name": "AUDI Spread Design",
+		"role": "Layout Designer",
+		"description": "Magazine spread design featuring the 2012 AUTI TT RS",
+		"skills" : "Adobe Photoshop CS5, Adobe InDesign CS5",
+		"feature_link" : "",
+		"link" : "http://prettygeekycat.blogspot.ca/2012/03/magazine-2-spread-design.html",
+		"git_link" : "",
+		"img_url" : "/images/audi_preview.png"
+		
+	},
+	"p4" : {
+		"type": "dev",
+		"name": "Green Gears",
+		"role": "Web Developer",
+		"description": "An environment oriented car catagorizer made with Django",
+		"skills" : "Django, python, SQLite, HTML, CSS",
+		"feature_link" : "",
+		"link" : "http://prettygeekycat.blogspot.ca/2012/03/magazine-2-spread-design.html",
+		"git_link" : "https://github.com/catherinettt/greengears"
+		
+		
+	} ,
+	"p5" : {
+		"type": "dev",
+		"name": "BBM 2.5",
+		"role": "Project Coordinator",
+		"description": "As a team player to ensure everything is on track and on time",
+		"skills" : "SCRUM, MKS Integrity, HP Quality Center, Microsoft Project",
+		"feature_link" : "",
+		"link" : "",
+		"git_link" : ""
+		
+	} , 
+	"p6" : {
+		"type": "desgin",
+		"name": "Citypark Poster Design",
+		"role": "Graphic Designer",
+		"description": "A community poster inspired by Saul Bass from New York School",
+		"skills" : "Adobe Photoshop CS5, Adobe Illustrator CS5",
+		"feature_link" : "",
+		"link" : "http://prettygeekycat.blogspot.ca/2012/04/poster-design-final.html",
+		"git_link" : ""
+		
+	}
+	
+}
