@@ -31,6 +31,7 @@ app.get('/360', routes.threesixty);
 app.get('/new', routes.neww);
 app.get('/projects', routes.projects);
 app.get('/about', routes.about);
+app.get('/calendar', routes.calendar);
 app.get('/projects/engage', routes.engage);
 exports.server = app;
 // listening

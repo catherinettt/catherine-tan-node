@@ -1,0 +1,106 @@
+/* -----------------------------------------
+   container
+----------------------------------------- */
+
+#container{
+	margin: 20px auto;
+	padding: 10px;
+	height: 880px;
+	width: 700px;
+	font-family: 'Open Sans', sans-serif;
+	background: rgba(0,0,0,0.05)
+	
+}
+
+
+#container h2{
+	text-align: right;
+	margin-right: 20px;
+}
+
+/* -----------------------------------------
+   timeline
+----------------------------------------- */
+
+#timeline{
+	float: left;
+	width: 80px;
+}
+
+#timeline ol{
+	list-style: none;
+	margin:0;
+	padding:0;
+	padding-right: 20px;
+}
+
+#timeline ol li{
+	text-align: right;
+	height:30px;
+	vertical-align: middle;
+	line-height: 30px;
+	
+}
+
+#timeline ol li.hours{
+	font-weight: bold;
+	font-size: 20px;
+	}
+	
+/* -----------------------------------------
+   event container
+----------------------------------------- */
+	
+#event_container{
+	float: left;
+	height: 720px;
+	width: 620px;
+	overflow: hidden;
+	
+		
+}
+#event_container #event_list{
+	position: relative;
+	padding: 0 10px;
+	
+}
+
+#event_container .events{
+	position: absolute;
+	
+	float:left;
+
+	}
+
+#event_container .event_box{
+	height: 100%;
+	text-align: center;
+	border-left: 5px solid rgba(0,0,0,0.6);
+}
+
+/* -----------------------------------------
+   set list
+----------------------------------------- */
+
+ol#set{
+	list-style: none;
+	font-family: 'Open Sans', sans-serif;
+	width:680px;
+	text-align: right;
+	padding:0;
+	margin-bottom: 20px;
+}
+
+ol#set li{
+	display: inline-block;
+	border: 1px solid #888;
+	padding: 5px 8px;
+	background-color: white;
+	
+}
+
+ol#set li:hover{
+	color: white;
+	background-color: #888;
+	cursor: pointer;
+	}

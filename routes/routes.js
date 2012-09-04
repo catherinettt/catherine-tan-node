@@ -156,6 +156,13 @@ exports.neww = function (req, res) {
 					}
 
 
-
+exports.calendar = function (req, res) {
+	res.render("calendar", {
+					title:"Simple Calendar",
+				}, function (err, rendered) {
+					res.writeHead(200, {'Content-Type':'text/html'});
+					res.end(rendered);
+					})
+					}
 	
 	
