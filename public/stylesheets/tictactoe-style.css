@@ -30,11 +30,11 @@ body{
 
 .p1{
 
-	background: url("cross.png");
+	background: url("/images/cross.png");
 }
 
 .p2{
-	background: url("circle.png");
+	background: url("/images/circle.png");
 }
 
 .button{
