@@ -164,5 +164,13 @@ exports.calendar = function (req, res) {
 					res.end(rendered);
 					})
 					}
+exports.tictactoe = function (req, res) {
+	res.render("tictactoe", {
+					title:"Tic-Tac-Toe",
+				}, function (err, rendered) {
+					res.writeHead(200, {'Content-Type':'text/html'});
+					res.end(rendered);
+					})
+					}
 	
 	

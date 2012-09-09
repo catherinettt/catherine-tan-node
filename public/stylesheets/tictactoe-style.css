@@ -1,0 +1,85 @@
+body{
+	text-align: center;
+	font-family: 'Bitter', serif;
+}
+#board{
+	margin: 10px auto;
+	width: 350px;
+}
+
+.row{
+	display: block;
+	text-align: center;
+}
+
+.block{
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	border: 1px solid black;
+	-moz-box-shadow:    inset 0 0 10px #888;
+	-webkit-box-shadow: inset 0 0 10px #888;
+	box-shadow:         inset 0 0 10px #888;
+	border-radius: 5px;
+
+}
+
+.block:hover{
+	cursor: pointer;
+}
+
+.p1{
+
+	background: url("cross.png");
+}
+
+.p2{
+	background: url("circle.png");
+}
+
+.button{
+	border: 1px solid #888;
+	border-radius: 5px;
+	background-color: #dcdcdc;
+	-moz-box-shadow:    inset 0 0 1px #888;
+	-webkit-box-shadow: inset 0 0 1px #888;
+	box-shadow:         inset 0 0 1px #888;
+	text-align: center;
+	padding: 5px 8px;
+	width: 100px;
+	margin: 3px auto;
+	cursor: pointer;
+}
+
+.shaded{
+	opacity: 0.5;
+	background-color:rgba(0,0,0,0.5);
+}
+
+#game_over{
+	position: absolute;
+	width: 350px;
+	height: 260px;
+	background-color:rgba(131,238,213,0.9);
+	margin-top: -300px;
+	padding-top: 20px;
+	display: none;
+	border-radius: 5px;
+	}
+
+#game_over_msg{
+	font-size: 42px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+#counters ul{
+	list-style: none;
+	padding: 0;
+}
+
+#counters ul li{
+	display: inline-block;
+	width: 80px;
+	
+}
