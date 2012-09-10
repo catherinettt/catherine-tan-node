@@ -4,9 +4,9 @@
 		"name": "SFU ENGAGE",
 		"role" : "Front-end Developer",
 		"description" : "An responsive online acadamic resouces organizer designed for SFU students",
-		"skills" : "Node.js, Jade, CSS3, HTML5, Foundation3",
+		"skills" : "Node.js, Jade, CSS3, HTML5, Foundation3, JavaScript",
 		"feature_link" : "/projects/engage",
-		"link" : "http://142.58.21.189:3000/",
+		"link" : "/projects/engage",
 		"git_link" : "https://github.com/sfu-innovation/project-xavier",
 		"img_url" : "/images/engage/engage_main.png"
 		
@@ -17,7 +17,7 @@
 		"name": "WIFI Locator",
 		"role": "Back-end Developer",
 		"description": "A realtime positionings mobile application using WIFI hotspots on campus",
-		"skills" : "Google App Engine, webapp, python, gql, HTML",
+		"skills" : "Google App Engine, webapp, python, gql, RESTful JSON, Agile SCRUM",
 		"feature_link" : "",
 		"link" : "http://wifi-location.appspot.com/",
 		"git_link" : "https://github.com/sfu-innovation/WifiLocator",
@@ -55,7 +55,7 @@
 		"name": "BBM 2.5",
 		"role": "Project Coordinator",
 		"description": "As a team player to ensure everything is on track and on time",
-		"skills" : "SCRUM, MKS Integrity, HP Quality Center, Microsoft Project",
+		"skills" : "Agile SCRUM, MKS Integrity, HP Quality Center, Microsoft Project",
 		"feature_link" : "",
 		"link" : "",
 		"git_link" : ""
@@ -74,9 +74,9 @@
 	},
 	"p7" : {
 		"type": "development",
-		"name": "Javascript TIC-TAC-TOE",
+		"name": "TIC-TAC-TOE",
 		"role": "JS Developer",
-		"description": "A simple TIC TAC TOE app implemented with JavaScript",
+		"description": "A simple TIC TAC TOE game implemented with JavaScript",
 		"skills" : "JavaScript, jQuery, HTML, CSS",
 		"feature_link" : "",
 		"link" : "/tictactoe",

@@ -82,6 +82,7 @@ exports.index = function (req, res) {
 exports.projects = function (req, res) {
 	res.render("projects", {
 					title:"Catherine Tan",
+					projects : projects
 				}, function (err, rendered) {
 					res.writeHead(200, {'Content-Type':'text/html'});
 					res.end(rendered);

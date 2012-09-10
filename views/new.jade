@@ -53,4 +53,7 @@ html
 						span #{item.role}	
 						h4 #{item.name}			
 						p #{item.description}
+						a(href="#{item.link}") Link
+						if item.git_link
+							a(href="#{item.git_link}") GitHub
 					

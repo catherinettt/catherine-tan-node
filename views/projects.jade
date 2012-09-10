@@ -1,57 +1,24 @@
 extends layout
 
 block content
+
+
 	div.row#projects
-		div.four.columns.project_box
-			div.project_innerbox
-				h4.project_name	SFU ENGAGE
-				span.project_role Front-end Developer
-				p.project_description An responsive online acadamic resouces organizer
-				span.skills Node.js, Jade, CSS3, HTML5, Foundation3
-				div.project_linkbox
-					a.project_link(href="http://142.58.21.189:3000/", target="_blank") Launch  
-					a.project_link(href="./projects/engage")  Detail
-					a.project_github(href="https://github.com/sfu-innovation/project-xavier", target="_blank")
-						img(src="/images/blacktocat.svg")
-		div.four.columns.project_box
-			div.project_innerbox
-				h4.project_name	WIFI Locator
-				span.project_role Back-end Developer
-				p.project_description A realtime positionings mobile application using WIFI hotspots on campus
-				span.skills Google App Engine, webapp, python, gql, HTML
-				div.project_linkbox
-					a.project_link(href="http://wifi-location.appspot.com/", target="_blank") Launch
-					a.project_github(href="https://github.com/sfu-innovation/WifiLocator", target="_blank")
-						img(src="/images/blacktocat.svg")
-		div.four.columns.project_box
-			div.project_innerbox
-				h4.project_name	AUDI Spread Design
-				span.project_role Layout Designer
-				p.project_description My first magazine spread design featuring the 2012 AUTI TT RS
-				span.skills Adobe Photoshop CS5, Adobe InDesign CS5
-				div.project_linkbox
-					a.project_link(href="http://prettygeekycat.blogspot.ca/2012/03/magazine-2-spread-design.html", target="_blank") View
-		div.four.columns.project_box
-			div.project_innerbox
-				h4.project_name	Citypark Poster Design
-				span.project_role Graphic Designer
-				p.project_description A community poster inspired by Saul Bass from New York School
-				span.skills Adobe Photoshop CS5, Adobe Illustrator CS5
-				div.project_linkbox
-					a.project_link(href="http://prettygeekycat.blogspot.ca/2012/04/poster-design-final.html", target="_blank") View
-		div.four.columns.project_box
-			div.project_innerbox
-				h4.project_name	GreenGears
-				span.project_role Web Developer
-				p.project_description An environment oriented car catagorizer made with Django
-				span.skills Django, python, SQLite, HTML, CSS
-				div.project_linkbox
-					a.project_github(href="https://github.com/catherinettt/greengears", target="_blank")
-						img(src="/images/blacktocat.svg")
-		div.four.columns.project_box.end
-			div.project_innerbox
-				h4.project_name	BBM 2.5
-				span.project_role Project Coordinator
-				p.project_description As a team player to ensure everything is on track and on time
-				span.skills SCRUM, MKS Integrity, HP Quality Center, Microsoft Project
-				div.project_linkbox
+		for item in projects
+			div.four.columns.project_box
+				if item.img_url
+					div#img_wrap(style="background-image: url('#{item.img_url}');")
+				div#project_content.project_innerbox
+					span.project_role #{item.role}	
+					h4.project_name #{item.name}			
+					p.project_description #{item.description}
+					span.skills #{item.skills}
+					if item.link
+						a.project_link(href="#{item.link}") Link
+					else
+						a  &nbsp
+					if item.git_link
+						a.project_github(href="#{item.git_link}") 
+							img(src="/images/blacktocat.svg")
+	script
+		$(".project_box:last-child").addClass("end");
