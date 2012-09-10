@@ -16,18 +16,19 @@ jQuery(document).ready(function ($) {
 
 	$(".block").click(function(){
 		$("#start_msg").hide();
-		if (player) {
-			$("#player").html("O's");
-		}
-		else $("#player").html("X's");
+
 		if (free(this.id)){
 			if (player){
+				
 				blocks[this.id] = 1;
 				draw(this.id, player);
+				$("#player").html("O's");
 				}
 			else {
 				blocks[this.id] = 2;
 				draw(this.id, player);
+				$("#player").html("X's");
+
 				}
 				
 			console.log(check_game())

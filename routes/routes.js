@@ -91,17 +91,23 @@ exports.projects = function (req, res) {
 					
 					
 exports.threesixty = function(req, res){
+	var list = []
+	var count
 	getPhotos(function(err, photos) {
 	if (err)
 		return console.log("Error: "+err);
 
 	//console.log("Got photos: ");
 	photos.forEach(function(photo) {
-		//console.log(photo);
+		list.push(photo);
+		
 	})
+	
+	count = list.length;
 	res.render("threesixty", {
 		title:"Catherine Tan",
-		photos :  photos
+		photos :  list,
+		count : count
 		}, function (err, rendered) {
 			res.writeHead(200, {'Content-Type':'text/html'});
 			res.end(rendered);

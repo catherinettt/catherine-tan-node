@@ -11,6 +11,13 @@ block content
 				a(href="http://prettygeekycat.blogspot.ca/2012/02/how-to-take-great-panoramas-using-your.html", target="_blank") blog 
 				|  I wrote on how I did them.
 		div.twelve.columns.centered		
-			each i in photos
-				img.panoramas(src="#{i["url"]}")
 			
+				
+			img.panoramas(src="#{photos[0]["url"]}")
+			a.button#next next
+			script
+				var i = 1;
+				
+				$("#next").click(function(){
+					console.log("#{photos[" + i + "]["url"]}");
+				});
