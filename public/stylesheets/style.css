@@ -209,6 +209,22 @@ img.panoramas:hover{
 	text-align: right;
 	
 }
+
+#threesixty .button{
+	
+	background: rgba(255, 255, 255, 0.5);
+	border: none;
+	top: 10px;
+	position: absolute;
+	right: 15px;
+	color: #555;
+	border-radius: 0;
+}
+
+#threesixty .button:hover{
+	color: #555;
+	background: rgba(255, 255, 255, 0.8);
+}
 /* -----------------------------------------
    about
 ----------------------------------------- */	

@@ -99,10 +99,10 @@ exports.threesixty = function(req, res){
 
 	//console.log("Got photos: ");
 	photos.forEach(function(photo) {
-		list.push(photo);
+		list.push(photo.url);
 		
 	})
-	
+	console.log(list)
 	count = list.length;
 	res.render("threesixty", {
 		title:"Catherine Tan",
