@@ -11,7 +11,7 @@ function rancolor(textdiv){
 	
 function changeText(id){
 	var list0 = ["computer science undergrad","web developer", "photographer", "interface designer", "graphic designer", "Simon Fraser University student", "Vancouver resident" ];
-	var list1 = ["typography", "HTML5", "Human Computer Interaction","JavaScript", "graphics", "doodling", "photography", "CSS", "CSS3","iphoneography", "snowboading", "biking", "the Vancouver Canucks", "User Interface Design", "Emerging Technologies", "smartphones"];
+	var list1 = ["Backbone.js", "Knockout.js", "CoffeeScripts", "typography", "the WWW", "Human Computer Interaction","JavaScript", "jQuery", "graphic", "photography", "CSS", "psychology", "pop culture", "urban culture", "iphoneography", "snowboading", "Vancouver Canucks", "User Interface Design", "Emerging Technologies", "mobility", "smartphones"];
 	var list2 = ["JavaScript","HTML", "CSS3", "Node.js", "jQuery", "HTML5", "CSS", "Google Fonts", "Foundation3", "Jade", "Amazon EC2", "GitHub"];
 	var temp;
 	if (id=='iam'){

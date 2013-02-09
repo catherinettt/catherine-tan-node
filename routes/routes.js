@@ -120,7 +120,7 @@ exports.threesixty = function(req, res){
 					
 exports.about = function(req, res){
 	var list0 = ["computer science undergrad","web developer", "photographer", "interface designer", "graphic designer", "Simon Fraser University student", "Vancouver resident" ];
-	var list1 = ["typography", "the WWW", "Human Computer Interaction","JavaScript", "jQuery", "graphic", "photography", "CSS", "psychology", "pop culture", "urban culture", "iphoneography", "snowboading", "Vancouver Canucks", "User Interface Design", "Emerging Technologies", "mobility", "smartphones"];
+	var list1 = ["Backbone.js", "Knockout.js", "CoffeeScripts", "typography", "the WWW", "Human Computer Interaction","JavaScript", "jQuery", "graphic", "photography", "CSS", "psychology", "pop culture", "urban culture", "iphoneography", "snowboading", "Vancouver Canucks", "User Interface Design", "Emerging Technologies", "mobility", "smartphones"];
 	var list2 = ["JavaScript","HTML", "CSS", "Node.js", "jQuery", "HTML5","CSS3", "Google Fonts","Zurb Foundation3"];
 	res.render("about", {
 					title:"Catherine Tan",

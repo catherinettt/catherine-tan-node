@@ -1,5 +1,18 @@
 {
-	"p1" : {
+
+	"1" : {
+	"type" : "dev",
+	"name": "Vidigami Media Inc.",
+	"role" : "Full-stack Web Developer",
+	"description" : "An onlince community for parents and teachers to share moments of a kid's life.",
+	"skills" : "Ruby on Rails, Coffeescript, Backbone.js, Knockout.js, Bootstrap, MySQL, Canvas",
+	"feature_link" : "",
+	"link" : "http://www.vidigami.com",
+	"git_link" : "",
+	"img_url" : ""
+	
+	},
+	"2" : {
 		"type" : "dev",
 		"name": "SFU ENGAGE",
 		"role" : "Front-end Developer",
@@ -12,7 +25,7 @@
 		
 	},
 	
-	"p2" : {
+	"3" : {
 		"type": "dev",
 		"name": "WIFI Locator",
 		"role": "Back-end Developer",
@@ -26,7 +39,7 @@
 		
 	},
 	
-	"p3" : {
+	"4" : {
 		"type": "desgin",
 		"name": "AUDI Spread Design",
 		"role": "Layout Designer",
@@ -38,7 +51,7 @@
 		"img_url" : "/images/audi_preview.png"
 		
 	},
-	"p4" : {
+	"5" : {
 		"type": "dev",
 		"name": "Green Gears",
 		"role": "Web Developer",
@@ -50,7 +63,7 @@
 		
 		
 	} ,
-	"p5" : {
+	"6" : {
 		"type": "dev",
 		"name": "BBM 2.5",
 		"role": "Project Coordinator",
@@ -61,7 +74,7 @@
 		"git_link" : ""
 		
 	} , 
-	"p6" : {
+	"7" : {
 		"type": "desgin",
 		"name": "Citypark Poster Design",
 		"role": "Graphic Designer",
@@ -72,7 +85,7 @@
 		"git_link" : ""
 		
 	},
-	"p7" : {
+	"8" : {
 		"type": "development",
 		"name": "TIC-TAC-TOE",
 		"role": "JS Developer",
